@@ -20,6 +20,9 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.idea/*
+.gitignore
+.project
 
 ### NetBeans ###
 /nbproject/private/
@@ -34,8 +37,6 @@ build/
 ### VS Code ###
 .vscode/
 
-.idea
-.gitignore
-
 ### Mac OS ###
 .DS_Store
+
