@@ -16,6 +16,7 @@ public class SharedResource {
             try {
                 Thread.sleep(3000);
             } catch (InterruptedException e) {
+//            	Thread.currentThread().interrupt();
                 throw new RuntimeException(e);
             }
             System.out.println("Read Value by Thread ::: " + Thread.currentThread().getName() + " Value is ::: " + value);
