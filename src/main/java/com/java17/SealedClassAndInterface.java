@@ -21,15 +21,13 @@ non-sealed class PhonePay implements Payment{
 }
 
 // not allowed becuase PayTmPaymentBank class has not permit to implement Payment interface.
-final class PayTmPaymentBank implements Payment{
+final class PayTmPaymentBank{
 
-	@Override
+	
 	public void modeOfPayment() {
 	}
 	
 }
-
-
 
 public class SealedClassAndInterface {
 	public static void main(String[] args) {
