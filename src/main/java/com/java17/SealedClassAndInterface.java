@@ -31,7 +31,7 @@ final class PayTmPaymentBank{
 
 public class SealedClassAndInterface {
 	public static void main(String[] args) {
-		
+		// create object using interface and classes
 	}
 
 }
